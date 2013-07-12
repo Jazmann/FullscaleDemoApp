@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094890CC178F86C600A31E3B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094890CB178F86C600A31E3B /* opencv2.framework */; };
+		0962C3FF162CB50600A35AB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0962C3FE162CB50600A35AB0 /* Default-568h@2x.png */; };
 		5C4B232E15E6D90800D2C698 /* demo_grabcut2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B232D15E6D90800D2C698 /* demo_grabcut2.jpg */; };
 		5C4B233115E6D90D00D2C698 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B233015E6D90D00D2C698 /* black.png */; };
 		5C5C07951599A83200B94843 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5C07941599A83200B94843 /* UIKit.framework */; };
@@ -74,6 +76,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		094890CB178F86C600A31E3B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios/opencv2.framework; sourceTree = "<group>"; };
+		0962C3FE162CB50600A35AB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5C4B232D15E6D90800D2C698 /* demo_grabcut2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_grabcut2.jpg; sourceTree = "<group>"; };
 		5C4B233015E6D90D00D2C698 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
 		5C5C07901599A83200B94843 /* FullscaleDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscaleDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +135,7 @@
 		5C89EC3B15DFFE0C002183F7 /* opencv-logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opencv-logo57.png"; sourceTree = "<group>"; };
 		5C89EC3C15DFFE0C002183F7 /* opencv-logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opencv-logo114.png"; sourceTree = "<group>"; };
 		5C89EC5015E004B9002183F7 /* demo_grabcut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_grabcut.png; sourceTree = "<group>"; };
-		5C89EC5415E2EF32002183F7 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios//opencv2.framework; sourceTree = "<group>"; };
+		5C89EC5415E2EF32002183F7 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../../../openCV_Dev/ios//opencv2.framework"; sourceTree = "<group>"; };
 		5C89EC6315E39195002183F7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		5CA3A1D015A4A9AE00C8B6E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FullscaleDemoApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		5CA3A1D115A4A9AE00C8B6E3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FullscaleDemoApp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -176,6 +180,7 @@
 				5C5C07951599A83200B94843 /* UIKit.framework in Frameworks */,
 				5C5C07971599A83200B94843 /* Foundation.framework in Frameworks */,
 				5C89EC5515E2EF32002183F7 /* opencv2.framework in Frameworks */,
+				094890CC178F86C600A31E3B /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,12 +213,13 @@
 				5C7F9BD815D6C38B0062EA0F /* haarcascade_frontalface_default.xml */,
 			);
 			name = haarcascades;
-			path = ../../ocv/opencv/data/haarcascades;
+			path = ../../../openCV_Dev/opencv/data/haarcascades;
 			sourceTree = "<group>";
 		};
 		5C5C07851599A83200B94843 = {
 			isa = PBXGroup;
 			children = (
+				0962C3FE162CB50600A35AB0 /* Default-568h@2x.png */,
 				5C5C07D91599AACB00B94843 /* app-icon_57x57.png */,
 				5C7F9BD215D6C3630062EA0F /* opencv */,
 				5C5C07B41599A84100B94843 /* shared */,
@@ -234,6 +240,7 @@
 		5C5C07931599A83200B94843 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				094890CB178F86C600A31E3B /* opencv2.framework */,
 				5C89EC5415E2EF32002183F7 /* opencv2.framework */,
 				5C89EC2315DFFA77002183F7 /* MobileCoreServices.framework */,
 				5CAD0B3815A63B0F00B9C56C /* Accelerate.framework */,
@@ -318,7 +325,7 @@
 				5C7F9BDE15D6C3A40062EA0F /* lbpcascade_frontalface.xml */,
 			);
 			name = lbpcascades;
-			path = ../../ocv/opencv/data/lbpcascades;
+			path = ../../../openCV_Dev/opencv/data/lbpcascades;
 			sourceTree = "<group>";
 		};
 		5CA3A1DF15A4A9D800C8B6E3 /* Supporting Files */ = {
@@ -461,6 +468,7 @@
 				5C7DE4AF15E3C9A5009D4CD1 /* lena_canny_pixel_bgr.JPG in Resources */,
 				5C4B232E15E6D90800D2C698 /* demo_grabcut2.jpg in Resources */,
 				5C4B233115E6D90D00D2C698 /* black.png in Resources */,
+				0962C3FF162CB50600A35AB0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,10 +605,12 @@
 		5C5C07B21599A83300B94843 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../openCV_Dev/ios/\"",
 				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FullscaleDemoApp/FullscaleDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "FullscaleDemoApp/FullscaleDemoApp-Info.plist";
@@ -612,10 +622,12 @@
 		5C5C07B31599A83300B94843 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../openCV_Dev/ios/\"",
 				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FullscaleDemoApp/FullscaleDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "FullscaleDemoApp/FullscaleDemoApp-Info.plist";
