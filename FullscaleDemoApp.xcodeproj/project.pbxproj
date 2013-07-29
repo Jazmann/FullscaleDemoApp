@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		094890CC178F86C600A31E3B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094890CB178F86C600A31E3B /* opencv2.framework */; };
 		0962C3FF162CB50600A35AB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0962C3FE162CB50600A35AB0 /* Default-568h@2x.png */; };
 		5C4B232E15E6D90800D2C698 /* demo_grabcut2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B232D15E6D90800D2C698 /* demo_grabcut2.jpg */; };
 		5C4B233115E6D90D00D2C698 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B233015E6D90D00D2C698 /* black.png */; };
@@ -76,7 +75,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		094890CB178F86C600A31E3B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios/opencv2.framework; sourceTree = "<group>"; };
 		0962C3FE162CB50600A35AB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5C4B232D15E6D90800D2C698 /* demo_grabcut2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_grabcut2.jpg; sourceTree = "<group>"; };
 		5C4B233015E6D90D00D2C698 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 				5C5C07951599A83200B94843 /* UIKit.framework in Frameworks */,
 				5C5C07971599A83200B94843 /* Foundation.framework in Frameworks */,
 				5C89EC5515E2EF32002183F7 /* opencv2.framework in Frameworks */,
-				094890CC178F86C600A31E3B /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +237,6 @@
 		5C5C07931599A83200B94843 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				094890CB178F86C600A31E3B /* opencv2.framework */,
 				5C89EC5415E2EF32002183F7 /* opencv2.framework */,
 				5C89EC2315DFFA77002183F7 /* MobileCoreServices.framework */,
 				5CAD0B3815A63B0F00B9C56C /* Accelerate.framework */,
@@ -411,7 +407,7 @@
 		5C5C07871599A83200B94843 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Eduard Feicho";
 			};
 			buildConfigurationList = 5C5C078A1599A83200B94843 /* Build configuration list for PBXProject "FullscaleDemoApp" */;
@@ -575,7 +571,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -594,7 +590,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -646,7 +642,7 @@
 				5C5C07B01599A83300B94843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		5C5C07B11599A83300B94843 /* Build configuration list for PBXNativeTarget "FullscaleDemoApp" */ = {
 			isa = XCConfigurationList;
@@ -655,7 +651,7 @@
 				5C5C07B31599A83300B94843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
